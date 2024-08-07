@@ -9,10 +9,10 @@ import FooterScroll from "./footer-scroll"
 const Footer = () => {
   return (
     <div className="w-full overflow-x-hidden bg-primary relative h-[75vh] text-secondary space-y-12 flex items-center justify-start flex-col py-8">
-        <div className="font-sans capitalize flex items-center justify-between text-2xl w-full max-w-[35rem]">
+        <div className="font-serif capitalize flex items-center justify-between font-[300] text-4xl w-full max-w-[35rem]">
             <Link
                 to={'/'}
-                // className={cn("", buttonVariants({ variant: "linkHover2" }))}
+                className="hover:text-tertiary"
             >
                 home
             </Link>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <Link
                     to={page.href}
                     key={page.title}
-                    // className={cn("", buttonVariants({ variant: "linkHover2" }))}
+                    className="hover:text-tertiary"
                 >
                     {page.title}
                 </Link>
