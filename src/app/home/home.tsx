@@ -1,3 +1,4 @@
+import Faqs from "./faqs"
 import Intro from "./intro"
 import Landing from "./landing"
 import Nourish from "./nourish"
@@ -10,6 +11,7 @@ const Home = () => {
         <Intro />
         <Nourish />
         <Services />
+        <Faqs />
     </div>
   )
 }
