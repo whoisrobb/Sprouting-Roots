@@ -57,7 +57,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Open sans", "sans-serif"],
-        space: ["Space grotesk", "sans-serif"]
+        space: ["Space grotesk", "sans-serif"],
+        serif: ["Yrsa", "serif"]
       },
       borderRadius: {
         lg: "var(--radius)",

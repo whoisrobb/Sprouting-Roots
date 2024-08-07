@@ -13,7 +13,7 @@ const ContentShell = ({ title, subtitle, children, className }: ContentShellProp
   const titleText = useSplitText(title, "letter");
   return (
     <div
-        className={cn('', className)}
+        className={cn('lg:px-12 md:px-8 px-4', className)}
     >
         <Separator />
         <div className="my-4">
