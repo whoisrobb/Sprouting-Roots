@@ -13,7 +13,7 @@ const Logo = ({ className }: HTMLAttributes<HTMLDivElement>) => {
         onClick={handleScrollToTop}
     >
         <img
-            src={'https://utfs.io/f/01711b69-89fd-49b2-b0d1-028eb992b496-np9mu4.jpg'}
+            src={'https://utfs.io/f/c6f80c9e-5c37-42a6-8e44-2aa3c942de54-u5qsta.png'}
             className={cn("", className)}
         />
     </Link>
