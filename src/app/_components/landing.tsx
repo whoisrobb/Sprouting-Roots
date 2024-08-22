@@ -1,19 +1,24 @@
 
+type LandingProps = {
+    imgSrc: string;
+    title: string;
+    subtitle: string;
+}
 
-const Landing = () => {
+const Landing = ({ imgSrc, title, subtitle }: LandingProps) => {
   return (
     <div className="relative h-screen w-screen overflow-hidden">
         <img
             className="h-full w-full object-cover"
-            src={'https://utfs.io/f/d593872d-af4b-4147-804c-ac7453c8ca97-7865p7.jpg'}
+            src={imgSrc}
             alt=""
         />
 
         <div className="absolute inset-0 bg-black bg-opacity-25 flex items-center justify-center">
             <div className="text-secondary text-center md:gap-8">
-                <h1 className="font-serif text-6xl">About</h1>
+                <h1 className="font-serif text-6xl">{title}</h1>
                 <div className="max-w-[35rem] leading-tight">
-                    The goal is to empower you to GROW nutritious sustainable food!  We start the training wherever you are in your gardening experience.
+                    {subtitle}
                 </div>
             </div>
         </div>
