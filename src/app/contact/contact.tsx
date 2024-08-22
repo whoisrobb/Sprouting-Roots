@@ -1,4 +1,5 @@
 import Landing from "../_components/landing"
+import ContactSection from "./contact-section"
 
 
 const Contact = () => {
@@ -9,6 +10,8 @@ const Contact = () => {
         title={"Get in touch"}
         subtitle={"Reach out to Sprouting Roots Consultancy for personalized gardening support. We're here to answer your questions, provide guidance, and help you grow a thriving, sustainable garden."}
       />
+
+      <ContactSection />
     </div>
   )
 }
