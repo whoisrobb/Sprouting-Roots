@@ -1,4 +1,5 @@
 import Landing from "../_components/landing"
+import Services from "./services"
 
 
 const WorkWithChris = () => {
@@ -9,6 +10,8 @@ const WorkWithChris = () => {
         title={"Collaborate"}
         subtitle={"Partner with Sprouting Roots Consultancy to cultivate thriving, sustainable gardens. Explore our tailored services and collaborative opportunities, designed to empower individuals, schools, and communities in their gardening journey."}
       />
+
+      <Services />
     </div>
   )
 }

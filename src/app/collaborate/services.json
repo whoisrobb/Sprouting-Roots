@@ -1,0 +1,50 @@
+[
+    {
+      "title": "Home Garden Consultation and Training",
+      "subtitle": "Receive personalized advice and hands-on training to start or improve your home garden. Tailored recommendations to help you cultivate a flourishing garden.",
+      "btnText": "Learn More",
+      "imgSrc": ""
+    },
+    {
+      "title": "Customized Garden Training",
+      "subtitle": "Training sessions designed to meet your specific gardening needs and objectives. Gain the knowledge and skills needed for a successful garden.",
+      "btnText": "Schedule a Session",
+      "imgSrc": ""
+    },
+    {
+      "title": "Garden Planning",
+      "subtitle": "Comprehensive garden planning services, including layout design, plant selection, and seasonal schedules, to ensure your garden thrives year-round.",
+      "btnText": "Start Planning",
+      "imgSrc": ""
+    },
+    {
+      "title": "Vegetable Gardens",
+      "subtitle": "Grow fresh, organic vegetables with our expert guidance. Design, plant, and maintain a productive vegetable garden tailored to your space and preferences.",
+      "btnText": "Get Started",
+      "imgSrc": ""
+    },
+    {
+      "title": "Maintenance, Harvest & Cleanup",
+      "subtitle": "Keep your garden in top shape with our maintenance, harvest, and cleanup services. Ongoing support for a healthy and productive garden.",
+      "btnText": "Request Service",
+      "imgSrc": ""
+    },
+    {
+      "title": "Seed to Harvest",
+      "subtitle": "Comprehensive support from planting seeds to harvesting crops. Learn best practices for each stage to maximize your garden's yield.",
+      "btnText": "Learn More",
+      "imgSrc": ""
+    },
+    {
+      "title": "Container & Raised Bed Gardens",
+      "subtitle": "Ideal for small spaces, container and raised bed gardens offer versatility. Design and implement these garden types for your available space.",
+      "btnText": "Explore Options",
+      "imgSrc": ""
+    },
+    {
+      "title": "School and Community Gardens",
+      "subtitle": "Support for creating and maintaining school and community gardens. Educational programs and hands-on assistance to promote gardening knowledge and community engagement.",
+      "btnText": "Get Involved",
+      "imgSrc": ""
+    }
+]  
