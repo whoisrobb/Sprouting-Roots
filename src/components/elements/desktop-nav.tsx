@@ -6,7 +6,7 @@ import { buttonVariants } from "../ui/button"
 
 const DesktopNav = () => {
   return (
-    <div className="flex items-center">
+    <div className="md:flex items-center hidden">
         {pages.map((page) => (
             <Link
                 to={page.href}
