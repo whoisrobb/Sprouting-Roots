@@ -1,3 +1,4 @@
+import { MarqueeDemo } from "@/components/elements/marquee-reviews"
 import Landing from "../_components/landing"
 import MeetChris from "./meet-chris"
 
@@ -11,6 +12,7 @@ const About = () => {
         subtitle={"The goal is to empower you to GROW nutritious sustainable food!  We start the training wherever you are in your gardening experience."}
       />
       <MeetChris />
+      <MarqueeDemo />
     </div>
   )
 }

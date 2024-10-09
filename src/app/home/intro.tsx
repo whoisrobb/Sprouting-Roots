@@ -1,6 +1,7 @@
 import ContentShell from "@/components/shells/content-shell";
 import { useRef } from "react";
 import useSplitPara from "../hooks/useSplitPara";
+import image from "/gardem-huckleberries.jpg";
 import Magnetic from "@/components/elements/magnetic";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -46,23 +47,40 @@ const Intro = () => {
         title="01/ Who we are"
         className="text-primary"
     >
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-8 md:py-0 py-12 items-center">
 
-    <div ref={description} className="relative h-[75vh] text-primary flex items-center justify-center">
-        <div className="space-y-4 flex gap-4 lg:flex-row flex-col justify-between w-full max-w-[900px] items-start">
-            <p className="text-xl leading-tight flex flex-wrap gap-x-2">
-                {paragraph}
-            </p>
+            <div ref={description} className="relative space-y-8">
+                <h1 className="text-black font-bold text-4xl capitalize">The restorative magic of <br/><span className="text-primary">your garden</span></h1>
 
-            <Magnetic>
-                <Link
-                    className={cn(buttonVariants(), "uppercase bg-primary text-tertiary border border-tertiary aspect-square h-36 text-sm font-space rounded-full")}
-                    to={'/about'}
-                >
-                    learn more
-                </Link>
-            </Magnetic>
+                <div className="space-y-4 flex gap-4 lg:flex-row flex-col justify-between w-full max-w-[900px] items-start text-muted-foreground">
+                    <p className="text-xl leading-tight flex flex-wrap gap-x-2">
+                        {paragraph}
+                    </p>
+
+                </div>
+            </div>
+
+            <div className="h-full w-full relative">
+                <div className="w-full aspect-square overflow-hidden rounded-xl">
+                    <img
+                        src={image}
+                        alt=""
+                        className="h-full w-full object-cover"
+                    />
+                </div>
+                <div className="absolute p-4 -bottom-20 -right-10 bg-secondary rounded-full">
+                    <Magnetic>
+                        <Link
+                            className={cn(buttonVariants(), "uppercase bg-tertiary text-primary hover:text-tertiary border border-tertiary aspect-square h-36 text-sm font-space rounded-full")}
+                            to={'/about'}
+                        >
+                            learn more
+                        </Link>
+                    </Magnetic>
+                </div>
+            </div>
         </div>
-    </div>
+
     
     </ContentShell>
   )
